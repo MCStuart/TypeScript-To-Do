@@ -17,6 +17,7 @@ console.log(tasks);
 
 tasks[0].markDone();
 
+
 for(var task of tasks){
-  $(".showTask").append(task);
+  console.log(task);
 }
